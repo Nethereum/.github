@@ -1,19 +1,50 @@
-## Nethereum
+# Nethereum
 
-Ethereum .Net integration platform
+Nethereum is the Ethereum .Net integration platform, the aim is to provide solutions to develop any type of dapp (web, mobile, desktop), backend integration or gaming and VR using platforms like Unity3d.
 
-# Nethereum Playground. Try Nethereum now in your browser.
-Go to http://playground.nethereum.com to browse and execute all the different samples on how to use Nethereum directly in your browser. 
+## Nethereum Playground. Try Nethereum now in your browser.
+The Nethereum playground http://playground.nethereum.com provides a simple IDE with many examples and first point of documentation on common tasks using Nethereum.
 
 [![Nethereum Playground](playground.png)](http://playground.nethereum.com)
 
-# Do you need support, want to have a chat, or want to help?
+## Do you need support, want to have a chat, or want to help?
 Please join the Discord server using this link: https://discord.gg/u3Ej2BReNn
 We should be able to answer there any simple queries, general comments or requests, everyone is welcome.
 If you want to help or have any ideas for a pull request just come and chat.
 
 ## Documentation
 The documentation and guides can be found at [Read the docs](https://nethereum.readthedocs.io/en/latest/). 
+
+## Examples and Templates
+The simplest way to get started, is to use one of the provided examples or templates
+
+### Nethereum.Templates.Pack
+The nethereum templates pack includes templates to work and create smart contract libraries, standalone or using a contract framewowrk like Open Zeppelin.
+It also includes Blazor wasm and server project templates that integrate with Metamask or Siwe (Sign with Ethereum)
+
+##### Installation
+Nuget: https://www.nuget.org/packages/Nethereum.Templates.Pack/
+
+```dotnet new -i Nethereum.Templates.Pack```
+
+##### Templates included
+
+```
+Template Name                                                  Short Name           Language  Tags
+-------------------------------------------------------------  -------------------  --------  -----------------------------------------------------
+Nethereum Default Smart contract Library / XUnit ERC20 sample  smartcontract        [C#]      Nethereum/Smart contracts
+Nethereum ERC721, ERC1155 Open Zeppelin and  XUnit Projects    nethereum-erc721-oz  [C#]      Nethereum/Smart contracts/OpenZeppelin/ERC721/ERC1155
+Nethereum Blazor Metamask Wasm-Server Projects                 nethereum-mm-blazor  [C#]      Nethereum/Blazor/Metamask
+Nethereum Blazor SIWE Wasm/Server/RestApi Projects             nethereum-siwe       [C#]      Nethereum/SIWE/Blazor/Metamas/RestApi
+Nethereum WebSocket Streaming Examples                         nethereum-ws-stream  [C#]      Nethereum/WebSocketStreaming
+```
+
+
+
+
+
+## Unity 3D projects
+
 
 <!--
 
