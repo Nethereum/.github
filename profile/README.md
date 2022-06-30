@@ -96,12 +96,30 @@ The templates provides the following use cases, and how SIWE can be implemented 
 
 ![demoAuthentication](https://user-images.githubusercontent.com/562371/176659903-451c1c14-e947-48d2-adeb-c5ebe8906f37.gif)
 
-### Wallets and End to End examples
+## Wallets and End to End examples
 
+### Blazor / Maui Hybrid Explorer wallet (Desktop, Mobile)
+Source and more info: https://github.com/Nethereum/Nethereum-Explorer-Wallet-Template-Blazor
 
+Nethereum Explorer is a .Net Blazor Wasm SPA, Desktop Windows and Mac, Android and iOS light blockchain explorer and simple wallet Template.
 
+You can try it here: https://explorer.nethereum.com
 
-### Unity 3D projects templates
+![browserwasm](https://user-images.githubusercontent.com/562371/176665033-cd17336a-b80d-4aa6-b6f6-d5da0ad6bc2a.png)
+![android](https://user-images.githubusercontent.com/562371/176665141-a6b91ea0-7610-4cb6-8ba0-7f7f6fc156d1.png)
+
+### Desktop wallet (Avalonia)
+Source and more info: https://github.com/Nethereum/Nethereum.UI.Desktop
+
+Functional sample of a Reactive Cross platform desktop wallet connecting to Ethereum using Nethereum, Avalonia and ReactiveUI.
+
+The aim of the starter kit is to provide a continous improving shell allowing to focus only on the developing the specific screens that provide the integration with smart contracts.
+
+The main example for this is the Standard Token component which provides the desktop views and view models
+
+![simpleDemo](https://user-images.githubusercontent.com/562371/176665549-57ab1ce6-d4cb-424e-adf0-cf8fe2bb074e.gif)
+
+## Unity 3D project
 #### Getting started (Unity3d Net472 Sample)
 Source and more info: https://github.com/Nethereum/Unity3dSimpleSampleNet472
 
