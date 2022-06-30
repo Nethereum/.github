@@ -38,13 +38,30 @@ Nethereum Blazor Metamask Wasm-Server Projects                 nethereum-mm-blaz
 Nethereum Blazor SIWE Wasm/Server/RestApi Projects             nethereum-siwe       [C#]      Nethereum/SIWE/Blazor/Metamas/RestApi
 Nethereum WebSocket Streaming Examples                         nethereum-ws-stream  [C#]      Nethereum/WebSocketStreaming
 ```
+##### Nethereum Default Smart contract Library / XUnit ERC20 sample
+
+##### Nethereum ERC721, ERC1155 Open Zeppelin and  XUnit Projects 
+
+##### Nethereum Blazor Metamask Wasm-Server Projects
+
+##### Nethereum Blazor SIWE Wasm/Server/RestApi Projects
+
+### Wallets and End to End examples
 
 
+### Unity 3D projects templates
+#### Getting started (Unity3d Net472 Sample)
+Source: https://github.com/Nethereum/Unity3dSimpleSampleNet472
 
+* How to make a simple call to Ethereum (BlockNumber) using Unity.UI both in Async and coroutines
+* Ether transfer using Unity.UI and coroutines
+* Using 1559 Suggestion strategies or Legacy mode when tranfering Ether
+* Smart contract deployment (ERC20), Transactions (Transfer) and Querying (Balance)
 
+#### Unity WebGl 
+Source: https://github.com/Nethereum/Nethereum.Unity.Webgl
 
-## Unity 3D projects
-
+Example on how to integrate a WebGl unity project with Metamask, Deploy an ERC721 smartcontract (NFT) and interact with the smart contract minting a token and retrieving the asset (image) associated with it.
 
 <!--
 
