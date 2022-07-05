@@ -32,8 +32,14 @@ The main Nethereum Solution and projects: Source and more Info: [https://github.
 | [Nethereum.HDWallet](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.HDWallet)  | [![NuGet version](https://badge.fury.io/nu/nethereum.HDWallet.svg)](https://badge.fury.io/nu/nethereum.HDWallet) | Generates an HD tree of Ethereum compatible addresses from a randomly generated seed phrase (using BIP32 and BIP39) |
 | [Nethereum.Metamask.Blazor](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Metamask.Blazor)  | [![NuGet version](https://badge.fury.io/nu/Nethereum.Metamask.Blazor.svg)](https://badge.fury.io/nu/Nethereum.Metamask.Blazor) | Metamask / Blazor integration |
 | [Nethereum.Optimism](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Optimism)  | [![NuGet version](https://badge.fury.io/nu/Nethereum.Optimism.svg)](https://badge.fury.io/nu/Nethereum.Optimism) |Nethereum L2 Optimism integration |
-| [Nethereum.EVM](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.EVM) | |Ethereum Virtual Machine API|
+| [Nethereum.BlockchainProcessing](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.BlockchainProcessing)  | [![NuGet version](https://badge.fury.io/nu/Nethereum.BlockchainProcessing.svg)](https://badge.fury.io/nu/Nethereum.BlockchainProcessing) |Nethereum Blockchain crawler and log processing |
+| [Nethereum.GnosisSafe](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.GnosisSafe)  | [![NuGet version](https://badge.fury.io/nu/Nethereum.GnosisSafe.svg)](https://badge.fury.io/nu/Nethereum.GnosisSafe) |Nethereum GnosisSafe integration |
+| [Nethereum.ENS](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.ENS)  | [![NuGet version](https://badge.fury.io/nu/Nethereum.ENS.svg)](https://badge.fury.io/nu/Nethereum.ENS) |Nethereum ENS extended integration |
+| [Nethereum.ENS](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.ENS)  | [![NuGet version](https://badge.fury.io/nu/Nethereum.ENS.svg)](https://badge.fury.io/nu/Nethereum.ENS) |Nethereum ENS extended integration |
+| [Nethereum.Signer.EIP712](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Signer.EIP712)  | [![NuGet version](https://badge.fury.io/nu/Nethereum.Signer.EIP712.svg)](https://badge.fury.io/nu/Nethereum.Signer.EIP712) |Nethereum EIP712|
+| [Nethereum.Siwe](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Siwe)  | [![NuGet version](https://badge.fury.io/nu/Nethereum.Siwe.svg)](https://badge.fury.io/nu/Nethereum.Siwe) |Nethereum SIWE|
 
+And others, check the source here: https://github.com/Nethereum/Nethereum/tree/master/src or Nugets https://www.nuget.org/profiles/nethereum
 
 
 ## Nethereum Playground. Try Nethereum now in your browser.
