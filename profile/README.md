@@ -3,8 +3,38 @@
 Nethereum is the Ethereum .Net integration platform, the aim is to provide solutions to develop any type of dapp (web, mobile, desktop), backend integration or gaming and VR using platforms like Unity3d.
 
 ## Nethereum core
-Source and more Info: [https://github.com/Nethereum/Nethereum](https://github.com/Nethereum/Nethereum)
-The main library of Nethereum.
+The main Nethereum Solution and projects: Source and more Info: [https://github.com/Nethereum/Nethereum](https://github.com/Nethereum/Nethereum)
+
+### Main Libraries
+
+|  Project Source | Nuget_Package |  Description |
+| ------------- |--------------------------|-----------|
+| [Nethereum.Web3](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Web3)    | [![NuGet version](https://badge.fury.io/nu/nethereum.web3.svg)](https://badge.fury.io/nu/nethereum.web3)| Ethereum Web3 Class Library to simplify the interaction with Ethereum (RPC, Contracts, Signing, etc) |
+| [Nethereum.Unity](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Unity) |  | Unity3d integration, libraries can be found in the Nethereum [releases](https://github.com/Nethereum/Nethereum/releases) |
+| [Nethereum.Geth](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Geth)    | [![NuGet version](https://badge.fury.io/nu/nethereum.geth.svg)](https://badge.fury.io/nu/nethereum.geth)| Nethereum.Geth is the extended Web3 library for Geth. This includes the non-generic RPC API client methods to interact with the Go Ethereum Client (Geth) like Admin, Debug, Miner|
+| [Nethereum.Quorum](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Quorum)| [![NuGet version](https://badge.fury.io/nu/nethereum.quorum.svg)](https://badge.fury.io/nu/nethereum.quorum)| Extension to interact with Quorum, the permissioned implementation of Ethereum supporting data privacy created by JP Morgan|
+| [Nethereum.Besu](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Bsus)| [![NuGet version](https://badge.fury.io/nu/nethereum.besu.svg)](https://badge.fury.io/nu/nethereum.besu)| Nethereum.Besu is the extended Web3 library for Besu. Including the non-generic RPC API client methods to interact with Besu.|
+
+## Core Libraries
+
+|  Project Source | Nuget_Package |  Description |
+| ------------- |--------------------------|-----------|
+| [Nethereum.ABI](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.ABI) | [![NuGet version](https://badge.fury.io/nu/nethereum.abi.svg)](https://badge.fury.io/nu/nethereum.abi)| Encoding and decoding of ABI Types, functions, events of Ethereum contracts |
+| [Nethereum.Hex](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Hex) | [![NuGet version](https://badge.fury.io/nu/nethereum.hex.svg)](https://badge.fury.io/nu/nethereum.hex)| HexTypes for encoding and decoding String, BigInteger and different Hex helper functions|
+| [Nethereum.RPC](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.RPC)   | [![NuGet version](https://badge.fury.io/nu/nethereum.rpc.svg)](https://badge.fury.io/nu/nethereum.rpc) | Core RPC Class Library to interact via RCP with an Ethereum client |
+| [Nethereum.Contracts](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Contracts)  | [![NuGet version](https://badge.fury.io/nu/nethereum.contracts.svg)](https://badge.fury.io/nu/nethereum.contracts) | Core library to interact via RPC with Smart contracts in Ethereum including presets for ERC20, ERC1155, ENS, ProofOfHumanity, MultiCall, etc|
+| [Nethereum.JsonRpc.RpcClient](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.JsonRpc.RpcClient)   | [![NuGet version](https://badge.fury.io/nu/nethereum.jsonrpc.rpcclient.svg)](https://badge.fury.io/nu/nethereum.jsonrpc.rpcclient) | JsonRpc Rpc Client using Http|
+| [Nethereum JsonRpc IpcClient](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.JsonRpc.IpcClient)| [![NuGet version](https://badge.fury.io/nu/nethereum.jsonRpc.ipcclient.svg)](https://badge.fury.io/nu/nethereum.jsonRpc.ipcclient) |JsonRpc IpcClient provider for Windows, Linux and Unix|
+| [Nethereum.JsonRpc.WebSocketClient](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.JsonRpc.WebSocketClient)| [![NuGet version](https://badge.fury.io/nu/Nethereum.JsonRpc.WebSocketClient.svg)](https://badge.fury.io/nu/Nethereum.JsonRpc.WebSocketClient) |JsonRpc WebsocketClient provider for Windows, Linux and Unix|
+| [Nethereum.RLP](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.RLP)  | [![NuGet version](https://badge.fury.io/nu/nethereum.rlp.svg)](https://badge.fury.io/nu/nethereum.rlp) | RLP encoding and decoding |
+| [Nethereum.KeyStore](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.KeyStore)  | [![NuGet version](https://badge.fury.io/nu/nethereum.keystore.svg)](https://badge.fury.io/nu/nethereum.keystore) | Keystore generation, encryption and decryption for Ethereum key files using the Web3 Secret Storage definition, https://github.com/ethereum/wiki/wiki/Web3-Secret-Storage-Definition |
+| [Nethereum.Signer](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Signer)  | [![NuGet version](https://badge.fury.io/nu/nethereum.signer.svg)](https://badge.fury.io/nu/nethereum.signer) | Nethereum signer library to sign and verify messages, RLP and transactions using an Ethereum account private key |
+| [Nethereum.HDWallet](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.HDWallet)  | [![NuGet version](https://badge.fury.io/nu/nethereum.HDWallet.svg)](https://badge.fury.io/nu/nethereum.HDWallet) | Generates an HD tree of Ethereum compatible addresses from a randomly generated seed phrase (using BIP32 and BIP39) |
+| [Nethereum.Metamask.Blazor](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Metamask.Blazor)  | [![NuGet version](https://badge.fury.io/nu/Nethereum.Metamask.Blazor.svg)](https://badge.fury.io/nu/Nethereum.Metamask.Blazor) | Metamask / Blazor integration |
+| [Nethereum.Optimism](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Optimism)  | [![NuGet version](https://badge.fury.io/nu/Nethereum.Optimism.svg)](https://badge.fury.io/nu/Nethereum.Optimism) |Nethereum L2 Optimism integration |
+| [Nethereum.EVM](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.EVM) | |Ethereum Virtual Machine API|
+
+
 
 ## Nethereum Playground. Try Nethereum now in your browser.
 The Nethereum playground http://playground.nethereum.com provides a simple IDE with many examples and first point of documentation on common tasks using Nethereum. Some of the examples included: 
@@ -18,7 +48,7 @@ We should be able to answer there any simple queries, general comments or reques
 If you want to help or have any ideas for a pull request just come and chat.
 
 ## Documentation
-The documentation and guides can be found at [Read the docs](https://nethereum.readthedocs.io/en/latest/)
+The documentation and guides can be found at [Read the docs](https://nethereum.readthedocs.io/en/latest/). 
 
 ## Examples and Templates
 The simplest way to get started, is to use one of the provided examples or templates
