@@ -3,14 +3,14 @@
 Nethereum is the Ethereum .Net integration platform, the aim is to provide solutions to develop any type of dapp (web, mobile, desktop), backend integration or gaming and VR using platforms like Unity3d.
 
 ## Nethereum core
-Source and more Info: https://github.com/Nethereum/Nethereum
+Source and more Info: [https://github.com/Nethereum/Nethereum](https://github.com/Nethereum/Nethereum){:target="_blank"}
 The main library of Nethereum.
 
 ## Nethereum Playground. Try Nethereum now in your browser.
 The Nethereum playground http://playground.nethereum.com provides a simple IDE with many examples and first point of documentation on common tasks using Nethereum. Some of the examples included: 
 Chain interation, Ether transfer, Transaction Signing, 1559 Fees, Interaction with Smart contracts and events, Smart contracts structs, Log and Blockchain Processing, Gnosis Safe, ENS, ERC20 and ERC721 presets, Hd Wallets, L2 Optimism, EIP712 Sign and recover a typed message, Abi Encoding, Key Store, Quorum, and many more...
 
-[![Nethereum Playground](playground.png)](http://playground.nethereum.com)
+[![Nethereum Playground](playground.png)](http://playground.nethereum.com){:target="_blank"}
 
 ## Do you need support, want to have a chat, or want to help?
 Please join the Discord server using this link: https://discord.gg/u3Ej2BReNn
@@ -18,7 +18,7 @@ We should be able to answer there any simple queries, general comments or reques
 If you want to help or have any ideas for a pull request just come and chat.
 
 ## Documentation
-The documentation and guides can be found at [Read the docs](https://nethereum.readthedocs.io/en/latest/). 
+The documentation and guides can be found at [Read the docs](https://nethereum.readthedocs.io/en/latest/){:target="_blank"}. 
 
 ## Examples and Templates
 The simplest way to get started, is to use one of the provided examples or templates
