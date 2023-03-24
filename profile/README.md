@@ -165,9 +165,11 @@ Source and more info: https://github.com/Nethereum/Unity3dSampleTemplate
 * Using 1559 Suggestion strategies or Legacy mode when tranfering Ether
 * Cross Platform architecture for both Coroutines and Task to enable the reuse of your code using different deployments Native /Desktop or Browser using Metamask)
 * Metamask connectivity in browser
-![Unity3dDestopSample](![image](https://user-images.githubusercontent.com/562371/227507830-37e030d4-b49a-46b2-b3bb-7147c8d3e51f.png)
+### Desktop demo
+![Unity3dDestopSample](https://user-images.githubusercontent.com/562371/227507830-37e030d4-b49a-46b2-b3bb-7147c8d3e51f.png)
 )
-![Unity3dBrowserSample](![image](![image](https://user-images.githubusercontent.com/562371/227508008-e3a71ac1-9ef6-4c76-a68e-069bc9f7e6a3.png))
+### Browser demo
+![Unity3dBrowserSample](https://user-images.githubusercontent.com/562371/227508008-e3a71ac1-9ef6-4c76-a68e-069bc9f7e6a3.png)
 )
 
 #### Unity WebGl 
