@@ -156,14 +156,19 @@ The main example for this is the Standard Token component which provides the des
 ![simpleDemo](https://user-images.githubusercontent.com/562371/176665549-57ab1ce6-d4cb-424e-adf0-cf8fe2bb074e.gif)
 
 ## Unity 3D project
-#### Getting started (Unity3d Net472 Sample)
-Source and more info: https://github.com/Nethereum/Unity3dSimpleSampleNet472
+#### Getting started (Unity3d Net472 / Netstandard Sample)
+Source and more info: https://github.com/Nethereum/Unity3dSampleTemplate
 
-* How to make a simple call to Ethereum (BlockNumber) using Unity.UI both in Async and coroutines
-* Ether transfer using Unity.UI and coroutines
-* Using 1559 Suggestion strategies or Legacy mode when tranfering Ether
+* Output to the log the current BlockNumber using Unity.UI both in Async and coroutines
+* Ether transfer using Web3 and coroutines
 * Smart contract deployment (ERC20), Transactions (Transfer) and Querying (Balance)
-![Unity3dSample](https://user-images.githubusercontent.com/562371/176657863-48fd36fe-57c9-49f9-8846-736d23689236.png)
+* Using 1559 Suggestion strategies or Legacy mode when tranfering Ether
+* Cross Platform architecture for both Coroutines and Task to enable the reuse of your code using different deployments Native /Desktop or Browser using Metamask)
+* Metamask connectivity in browser
+![Unity3dDestopSample](![image](https://user-images.githubusercontent.com/562371/227507830-37e030d4-b49a-46b2-b3bb-7147c8d3e51f.png)
+)
+![Unity3dBrowserSample](![image](![image](https://user-images.githubusercontent.com/562371/227508008-e3a71ac1-9ef6-4c76-a68e-069bc9f7e6a3.png))
+)
 
 #### Unity WebGl 
 Source: https://github.com/Nethereum/Nethereum.Unity.Webgl
