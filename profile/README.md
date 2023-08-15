@@ -156,6 +156,10 @@ The main example for this is the Standard Token component which provides the des
 ![simpleDemo](https://user-images.githubusercontent.com/562371/176665549-57ab1ce6-d4cb-424e-adf0-cf8fe2bb074e.gif)
 
 ## Unity 3D project
+
+#### Unity package
+Nethereum can be installed as a Unity Package using the following git repository:  https://github.com/Nethereum/Nethereum.Unity
+
 #### Getting started (Unity3d Net472 / Netstandard Sample)
 Source and more info: https://github.com/Nethereum/Unity3dSampleTemplate
 
