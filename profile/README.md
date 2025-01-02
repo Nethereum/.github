@@ -11,10 +11,6 @@ The main Nethereum Solution and projects: Source and more Info: [https://github.
 | ------------- |--------------------------|-----------|
 | [Nethereum.Web3](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Web3)    | [![NuGet version](https://badge.fury.io/nu/nethereum.web3.svg)](https://badge.fury.io/nu/nethereum.web3)| Ethereum Web3 Class Library to simplify the interaction with Ethereum (RPC, Contracts, Signing, etc) |
 | [Nethereum.Unity](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Unity) |  | Unity3d integration, libraries can be found in the Nethereum [releases](https://github.com/Nethereum/Nethereum/releases) |
-| [Nethereum.Geth](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Geth)    | [![NuGet version](https://badge.fury.io/nu/nethereum.geth.svg)](https://badge.fury.io/nu/nethereum.geth)| Nethereum.Geth is the extended Web3 library for Geth. This includes the non-generic RPC API client methods to interact with the Go Ethereum Client (Geth) like Admin, Debug, Miner|
-| [Nethereum.Quorum](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Quorum)| [![NuGet version](https://badge.fury.io/nu/nethereum.quorum.svg)](https://badge.fury.io/nu/nethereum.quorum)| Extension to interact with Quorum, the permissioned implementation of Ethereum supporting data privacy created by JP Morgan|
-| [Nethereum.Besu](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Bsus)| [![NuGet version](https://badge.fury.io/nu/nethereum.besu.svg)](https://badge.fury.io/nu/nethereum.besu)| Nethereum.Besu is the extended Web3 library for Besu. Including the non-generic RPC API client methods to interact with Besu.|
-| [Nethereum.Optimism](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Optimism)  | [![NuGet version](https://badge.fury.io/nu/Nethereum.Optimism.svg)](https://badge.fury.io/nu/Nethereum.Optimism) |Nethereum L2 Optimism integration |
 
 ## Core Libraries
 
@@ -40,6 +36,13 @@ The main Nethereum Solution and projects: Source and more Info: [https://github.
 | [Nethereum.Siwe](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Siwe)  | [![NuGet version](https://badge.fury.io/nu/Nethereum.Siwe.svg)](https://badge.fury.io/nu/Nethereum.Siwe) |Nethereum SIWE|
 
 And others, check the source here: https://github.com/Nethereum/Nethereum/tree/master/src or Nugets https://www.nuget.org/profiles/nethereum
+
+## Node / Client extension Libraries
+|  Project Source | Nuget_Package |  Description |
+| [Nethereum.Geth](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Geth)    | [![NuGet version](https://badge.fury.io/nu/nethereum.geth.svg)](https://badge.fury.io/nu/nethereum.geth)| Nethereum.Geth is the extended Web3 library for Geth. This includes the non-generic RPC API client methods to interact with the Go Ethereum Client (Geth) like Admin, Debug, Miner|
+| [Nethereum.Quorum](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Quorum)| [![NuGet version](https://badge.fury.io/nu/nethereum.quorum.svg)](https://badge.fury.io/nu/nethereum.quorum)| Extension to interact with Quorum, the permissioned implementation of Ethereum supporting data privacy created by JP Morgan|
+| [Nethereum.Besu](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Bsus)| [![NuGet version](https://badge.fury.io/nu/nethereum.besu.svg)](https://badge.fury.io/nu/nethereum.besu)| Nethereum.Besu is the extended Web3 library for Besu. Including the non-generic RPC API client methods to interact with Besu.|
+| [Nethereum.Optimism](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Optimism)  | [![NuGet version](https://badge.fury.io/nu/Nethereum.Optimism.svg)](https://badge.fury.io/nu/Nethereum.Optimism) |Nethereum L2 Optimism integration |
 
 
 ## Nethereum Playground. Try Nethereum now in your browser.
