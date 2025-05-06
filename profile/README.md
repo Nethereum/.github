@@ -49,7 +49,7 @@ And others, check the source here: https://github.com/Nethereum/Nethereum/tree/m
 
 ## Nethereum Playground. Try Nethereum now in your browser.
 The Nethereum playground http://playground.nethereum.com provides a simple IDE with many examples and first point of documentation on common tasks using Nethereum. Some of the examples included: 
-Chain interation, Ether transfer, Transaction Signing, 1559 Fees, Interaction with Smart contracts and events, Smart contracts structs, Log and Blockchain Processing, Gnosis Safe, ENS, ERC20 and ERC721 presets, Hd Wallets, L2 Optimism, EIP712 Sign and recover a typed message, Abi Encoding, Key Store, Quorum, and many more...
+Chain interaction, Ether transfer, Transaction Signing, 1559 Fees, Interaction with Smart contracts and events, Smart contracts structs, Log and Blockchain Processing, Gnosis Safe, ENS, ERC20 and ERC721 presets, Hd Wallets, L2 Optimism, EIP712 Sign and recover a typed message, Abi Encoding, Key Store, Quorum, and many more...
 
 [![Nethereum Playground](playground.png)](http://playground.nethereum.com)
 
@@ -65,7 +65,7 @@ The documentation and guides can be found at [Read the docs](https://nethereum.r
 The simplest way to get started, is to use one of the provided examples or templates
 
 ### Nethereum.Templates.Pack
-The nethereum templates pack includes templates to work and create smart contract libraries, standalone or using a contract framewowrk like Open Zeppelin.
+The nethereum templates pack includes templates to work and create smart contract libraries, standalone or using a contract framework like Open Zeppelin.
 It also includes Blazor wasm and server project templates that integrate with Metamask or Siwe (Sign with Ethereum)
 
 #### Installation
@@ -112,7 +112,7 @@ For more information:
 ### Nethereum Blazor Metamask Wasm-Server Projects
 Source and more info: https://github.com/Nethereum/Nethereum.Templates.Metamask.Blazor
 
-This projects provides the quick start example/template on how to integrate Metamask + Nethereum using Blazor interop. The project allows you to work both in Wasm and Server side, so you can create a fully decentralised application using Wasm or semi-decentralised using server hosted components (Web3+Web2).
+This project provides the quick start example/template on how to integrate Metamask + Nethereum using Blazor interop. The project allows you to work both in Wasm and Server side, so you can create a fully decentralised application using Wasm or semi-decentralised using server hosted components (Web3+Web2).
 
 Both project types include and example on how to:
 + Configure Metamask as a UI host provider
@@ -127,8 +127,8 @@ Both project types include and example on how to:
 ### Nethereum Blazor SIWE Wasm/Server/RestApi Projects
 Source and more info: https://github.com/Nethereum/Nethereum.Templates.Siwe
 
-The Nethereum SIWE template provides an starting point of signing and authentication using Ethereum accounts and the standard SIWE message.
-The templates provides the following use cases, and how SIWE can be implemented using the Nethereum libraries.
+The Nethereum SIWE template provides a starting point for signing and authentication using Ethereum accounts and the standard SIWE message.
+The templates provide the following use cases, and how SIWE can be implemented using the Nethereum libraries.
 + Rest Api 
 + Blazor Wasm + Rest Api
 + Blazor Server side (standalone)
@@ -154,7 +154,7 @@ Source and more info: https://github.com/Nethereum/Nethereum.UI.Desktop
 
 Functional sample of a Reactive Cross platform desktop wallet connecting to Ethereum using Nethereum, Avalonia and ReactiveUI.
 
-The aim of the starter kit is to provide a continous improving shell allowing to focus only on the developing the specific screens that provide the integration with smart contracts.
+The aim of the starter kit is to provide a continuous improving shell allowing to focus only on the developing the specific screens that provide the integration with smart contracts.
 
 The main example for this is the Standard Token component which provides the desktop views and view models
 
@@ -171,7 +171,7 @@ Source and more info: https://github.com/Nethereum/Unity3dSampleTemplate
 * Output to the log the current BlockNumber using Unity.UI both in Async and coroutines
 * Ether transfer using Web3 and coroutines
 * Smart contract deployment (ERC20), Transactions (Transfer) and Querying (Balance)
-* Using 1559 Suggestion strategies or Legacy mode when tranfering Ether
+* Using 1559 Suggestion strategies or Legacy mode when tranferring Ether
 * Cross Platform architecture for both Coroutines and Task to enable the reuse of your code using different deployments Native /Desktop or Browser using Metamask)
 * Metamask connectivity in browser
 ### Desktop demo
